@@ -11,16 +11,13 @@ import kotlin.random.Random
  * ******** Pseudocode *********
  *
  *      // Indices started from 1
- *      for j=1 to A.length
+ *      for j=1 to A.length - 1
  *          minIndex = j
- *          i = j +1
- *          // finding the next min and exchanging it
- *          while(i < A.length + 1)
+ *          for i = j+1 to A.length
+ *              // finding the next min and exchanging it
  *              if A[i] < A[minIndex]
  *                  minIndex = i
- *              i = i+1
- *          if A[j] != A[minIndex]
- *              swap A[j] , A[minIndex]
+ *          swap A[j] , A[minIndex]
  *
  *
  * ****** Loop invariant ********
@@ -39,17 +36,16 @@ fun selectionSort(array: Array<Int>) {
     // from 0 to n - 2, because the last element sorted after sorting the n-1 items
     for (j in 0 until array.lastIndex) {
         var minIndex = j
-        var i = j + 1
-        while (i < array.size) {
+
+        for (i in (j+1) until array.size) {
             if (array[i] < array[minIndex]) {
                 minIndex = i
             }
-            i++
         }
 
-        if (array[j] != array[minIndex]) {
-            array[j] = array[minIndex].also { array[minIndex] = array[j] }
-        }
+        // swap a[]
+        array[j] = array[minIndex].also { array[minIndex] = array[j] }
+
     }
 }
 
