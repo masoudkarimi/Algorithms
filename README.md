@@ -6,6 +6,9 @@ This is a repository where I put everything I learn about the algorithm in Book 
 
 ## Insertion Sort 
   [Page 29, Exercise 2.2-2](https://github.com/masoudkarimi/Algorithms/blob/master/src/selection/SelectionSort.kt)
+
+## Longest Substring with K Distinct
+  [Longest Substring with K Distinct](https://github.com/masoudkarimi/Algorithms/blob/master/src/slidingwindow/LongestSubstringKDistinct.kt)
   
 
 [book_logo]: https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg "Introduction To Algorithms"
