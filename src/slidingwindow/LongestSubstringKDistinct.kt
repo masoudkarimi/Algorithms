@@ -18,12 +18,12 @@ import kotlin.math.max
  * */
 object LongestSubstringKDistinct {
 
-    data class Answer(
+    data class Result(
         val maxLength: Int,
         val answers: List<String>
     )
 
-    fun findAnswer(str: String, k: Int): Answer {
+    fun findAnswer(str: String, k: Int): Result {
         if (str.isEmpty() || str.length < k) {
             throw IllegalArgumentException()
         }
@@ -57,7 +57,7 @@ object LongestSubstringKDistinct {
             }
         }
 
-        return Answer(
+        return Result(
             maxLength,
             answers
         )
