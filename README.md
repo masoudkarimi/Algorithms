@@ -12,6 +12,9 @@ This is a repository where I put everything I learn about the algorithm in Book 
 
 ## Fruits into Baskets
   [Longest Substring with K Distinct](https://github.com/masoudkarimi/Algorithms/blob/master/src/slidingwindow/MaxFruitCountOf2Types.kt)
+
+## Permutation in String
+  [Permutation in String](https://github.com/masoudkarimi/Algorithms/blob/master/src/slidingwindow/PermutationInString.kt)
   
 
 [book_logo]: https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg "Introduction To Algorithms"
