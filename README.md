@@ -18,6 +18,9 @@ This is a repository where I put everything I learn about the algorithm in Book 
   
 ## First Bad Version From [LeetCode](https://leetcode.com/problems/first-bad-version/)
   [First Bad Version](https://github.com/masoudkarimi/Algorithms/blob/master/src/FirstBadVersion.kt)
+
+## Perfect Squares  [LeetCode](https://leetcode.com/problems/perfect-squares/)
+  [Perfect Squares](https://github.com/masoudkarimi/Algorithms/blob/master/src/PerfectSquare.kt) Dynamic Programming
   
 
 [book_logo]: https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg "Introduction To Algorithms"
