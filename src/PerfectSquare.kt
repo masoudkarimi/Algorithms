@@ -1,3 +1,6 @@
+import java.util.Arrays
+import kotlin.math.min
+
 /**
  * Given an integer n, return the least number of perfect square numbers that sum to n.
  *
@@ -13,11 +16,17 @@
  * **/
 
 class PerfectSquare {
+    data class Result(
+        val min: Int,
+        val answer: List<Int>
+    )
+
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            repeat(10) {
+            repeat(101) {
                 println("Number of perfect squares for $it is ${numSquares(it)}")
+                println("Number of perfect squares answer for $it is ${numSquaresAnswer(it)}")
             }
         }
 
@@ -40,6 +49,39 @@ class PerfectSquare {
             }
 
             return dp[n]
+        }
+
+        fun numSquaresAnswer(n: Int): List<Int> {
+            if (n < 4) {
+                return Array(n) { 1 }.toList()
+            }
+
+            val dp = Array(n + 1) { Result(0, listOf()) }
+
+            dp[0] = Result(0, listOf())
+            dp[1] = Result(1, listOf(1))
+            dp[2] = Result(2, listOf(1, 1))
+            dp[3] = Result(3, listOf(1, 1, 1))
+
+
+            for (i in 4 .. n) {
+                dp[i] = Result(i, listOf())
+
+                var j = 1
+                while (j * j <= i) {
+                    dp[i] = if ((dp[i - j * j].min + 1) < dp[i].min) {
+                        Result(
+                            min = 1 + dp[i - j * j].min,
+                            answer = dp[i - j * j].answer + listOf(j * j)
+                        )
+                    } else {
+                        dp[i]
+                    }
+                    j++
+                }
+            }
+
+            return dp[n].answer
         }
     }
 
