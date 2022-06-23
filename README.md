@@ -28,4 +28,4 @@ or other sources like Leet Code.
   [Product of Array Except Self](https://github.com/masoudkarimi/Algorithms/blob/master/src/ProductOfArrayExceptSelf.kt)
   
 
-[book_logo]: https://upload.wikimedia.org/wikipedia/en/4/41/Clrs3.jpeg "Introduction To Algorithms"
+[book_logo]: https://github.com/masoudkarimi/Algorithms/blob/master/images/algorithms.jpg "Introduction To Algorithms"
