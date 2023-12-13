@@ -27,5 +27,8 @@ or other sources like Leet Code.
 ## Product of Array Except Self  [LeetCode](https://leetcode.com/problems/product-of-array-except-self/)
   [Product of Array Except Self](https://github.com/masoudkarimi/Algorithms/blob/master/src/ProductOfArrayExceptSelf.kt)
   
+## LeetCode 75 Study Plan
+- [75. Merge Strings Alternatively](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode75/MergeStringsAlternately) 
+- [1071. Greatest Common Divisor of Strings](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1071/GreatestCommonDivisorOfStrings) 
 
 [book_logo]: https://github.com/masoudkarimi/Algorithms/blob/master/images/algorithms.jpg "Introduction To Algorithms"
