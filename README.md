@@ -30,5 +30,6 @@ or other sources like Leet Code.
 ## LeetCode 75 Study Plan
 - [75. Merge Strings Alternatively](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode75/MergeStringsAlternately) 
 - [1071. Greatest Common Divisor of Strings](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1071/GreatestCommonDivisorOfStrings) 
+- [1431. Kids With the Greatest Number of Candies](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1431/KidsWithTheGreatestNumberOfCandies) 
 
 [book_logo]: https://github.com/masoudkarimi/Algorithms/blob/master/images/algorithms.jpg "Introduction To Algorithms"
