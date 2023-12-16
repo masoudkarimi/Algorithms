@@ -31,5 +31,7 @@ or other sources like Leet Code.
 - [75. Merge Strings Alternatively](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode75/MergeStringsAlternately) 
 - [1071. Greatest Common Divisor of Strings](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1071/GreatestCommonDivisorOfStrings) 
 - [1431. Kids With the Greatest Number of Candies](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1431/KidsWithTheGreatestNumberOfCandies) 
+- [605. Can Place Flowers](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode605/CanPlaceFlowers) 
+- [345. Reverse Vowels In String](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode345/ReverseVowelsInString) 
 
 [book_logo]: https://github.com/masoudkarimi/Algorithms/blob/master/images/algorithms.jpg "Introduction To Algorithms"
