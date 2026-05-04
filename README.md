@@ -37,5 +37,10 @@ or other sources like Leet Code.
 - [345. Reverse Vowels In String](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode345/ReverseVowelsInString.java) 
 - [151. Reverse Words In String](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode151/ReverseWordsInString.java) 
 - [238. Product Of Array Except Self](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode238/ProductOfArrayExceptSelf.java) 
+- [704. Binary Search](https://github.com/masoudkarimi/Algorithms/blob/master/src/BinarySearch.kt) 
+- [1004. Max Consecutive Ones III](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1004/LongestOnesFlippingKZeros.java) 
+- [1456. Maximum Number of Vowels in a Substring of Given Length](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1456/MaximumNumberOfVowelsInASubstring.java) 
+- [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1493/LongestSubArrayAfterDeletingOneElement.java) 
+- [1732. Find the Highest Altitude](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1732/FindTheHighestAltitude.java) 
 
 [book_logo]: https://github.com/masoudkarimi/Algorithms/blob/master/images/algorithms.jpg "Introduction To Algorithms"
