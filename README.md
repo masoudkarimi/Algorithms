@@ -42,5 +42,6 @@ or other sources like Leet Code.
 - [1456. Maximum Number of Vowels in a Substring of Given Length](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1456/MaximumNumberOfVowelsInASubstring.java) 
 - [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1493/LongestSubArrayAfterDeletingOneElement.java) 
 - [1732. Find the Highest Altitude](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode1732/FindTheHighestAltitude.java) 
+- [2215. Difference of Two Arrays](https://github.com/masoudkarimi/Algorithms/blob/master/src/leetcode2215/DifferenceOfTwoArrays.java) 
 
 [book_logo]: https://github.com/masoudkarimi/Algorithms/blob/master/images/algorithms.jpg "Introduction To Algorithms"
